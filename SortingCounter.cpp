@@ -197,7 +197,7 @@ averageCase = 0;
 averageSize = 0;
 
 for(int i = 0; i < TEST_CASES; i++){
-    int randomSize = (rand()%25)+75;                                                  //designate random size(75-100) for array
+    int randomSize = (rand()%100)+1;                                                  //designate random size(75-100) for array
     averageSize += randomSize;
     int* arr1 = new int[randomSize];
     fillArray(arr1, randomSize);                                                      //fill array of random size
